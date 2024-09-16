@@ -209,6 +209,34 @@ Create beautiful label element that looks like rectangle rounded badge. Bootstra
 ```
 
 ---
+
+### &#10022; Breadcrumb:
+Breadcrumbs are used for indicating navigation tree or order or the page, Where you are in the current page. Bootstrap makes Breadcrumb looks rich and nice.
+
+*Syntax: add `.breadcrumb` class*
+
+```html
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Blog</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Article Name</li>
+  </ol>
+</nav>
+``` 
+
+- To add custom dividers for breadcrumbs
+```html
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    ...
+  </ol>
+</nav>
+```
+
+
+
+---
 [&#8682; To Top](#-components)
 
 [&#10094; Previous Topic](./bootstrap-content.md) &emsp; [Next Topic &#10095;](./bootstrap-helpers.md)
