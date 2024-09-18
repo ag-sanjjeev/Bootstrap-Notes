@@ -286,7 +286,7 @@ Bootstrap can make buttons that looks beautiful and nice.
   - `toggle()` -  Toggles push state. That makes button to be appeared as being active.
   - `dispose()` - Destroys a button element. (Removes from the DOM tree).
   - `getInstance()` -  Static method which allows to get the button instance.
-  - `getOrCreateInstance()` Static method which returns a button instance or create a new one in case it wasn't initialised yet.
+  - `getOrCreateInstance()` Static method which returns a button instance or create a new one in case it wasn't initialized yet.
 ```javascript
 var button = document.getElementById('{button-id}')
 var bsButton = new bootstrap.Button(button);
@@ -340,6 +340,80 @@ Bootstrap can make button to be treated as close button for alerts, models and e
 - White Colored Close Button for Dark Background:
 ```html
 <button type="button" class="btn-close btn-close-white" aria-label="Close"></button>
+```
+
+---
+
+### &#10022; Cards:
+Card means the container for the group of elements to make their looks like real world card shapes.
+
+*Syntax: add `.card` class*
+```html
+<div class="card">...</div>
+```
+
+**Associated classes and card elements:**
+- Card Header:
+```html
+<div class="card-header">...</div>
+```
+- Card Title:
+```html
+<h3 class="card-title">...</h3>
+```
+
+- Card Body:
+```html
+<div class="card-body">...</div>
+```
+
+- Card Text:
+```html
+<p class="card-text">...</p>
+```
+
+- Card Footer:
+```html
+<div class="card-footer">...</div>
+```
+
+- Card Link:
+```html
+<a href="#" class="card-link">...</a>
+```
+
+- Card Image Top:
+```html
+<img src="..." class="card-img-top" alt="...">
+```
+
+- Card Image Bottom:
+```html
+<img src="..." class="card-img-bottom" alt="...">
+```
+
+- Card Image Overlay:
+```html
+<div class="card-img-overlay" style="background: url(...)">
+  <h5 class="card-title">...</h5>
+  <p class="card-text">...</p>
+  <a href="#" class="card-link">...</a>
+</div>
+```
+
+- Card Group:
+```html
+<div class="card-group">...</div>
+```
+
+- Change Background color of card with bootstrap background classes.
+```html
+<div class="card bg-primary">...</div>
+```
+
+- Change Border color of card with bootstrap border classes.
+```html
+<div class="card border-primary">...</div>
 ```
 
 ---
