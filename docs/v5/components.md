@@ -323,6 +323,26 @@ Bootstrap can make series of buttons as group.
 ```
 
 ---
+
+### &#10022; Close Button:
+Bootstrap can make button to be treated as close button for alerts, models and etc.,
+
+*Syntax: add `.btn-close` class*
+```html
+<button type="button" class="btn-close" aria-label="Close"></button>
+```
+
+- Disabled Close Button:
+```html
+<button type="button" class="btn-close" aria-label="Close" disabled></button>
+```
+
+- White Colored Close Button for Dark Background:
+```html
+<button type="button" class="btn-close btn-close-white" aria-label="Close"></button>
+```
+
+---
 [&#8682; To Top](#-components)
 
 [&#10094; Previous Topic](./bootstrap-content.md) &emsp; [Next Topic &#10095;](./bootstrap-helpers.md)
