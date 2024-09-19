@@ -182,7 +182,8 @@ var dropdown = new bootstrap.Carousel(dropdownReference, {
 
 - Events related to collapse:
   - `show.bs.dropdown` - It triggers an event when the show instance method is invoked.
-  - `shown.bs.dropdown` - It triggers an event when the dropdown menu gets visible to the user.  - `hide.bs.dropdown` - It triggers an event when the hide instance method is invoked.
+  - `shown.bs.dropdown` - It triggers an event when the dropdown menu gets visible to the user.  
+  - `hide.bs.dropdown` - It triggers an event when the hide instance method is invoked.
   - `hidden.bs.dropdown` - It triggers an event when the dropdown menu gets hidden to the user.  
 
 ```javascript
