@@ -160,7 +160,7 @@ var dropdownList = dropdownElements.map(function (element) {
 - Add options to dropdown via JavaScript:
 ```javascript
 var dropdownReference = document.querySelector('#{dropdown-id}');
-var dropdown = new bootstrap.Carousel(dropdownReference, {
+var dropdown = new bootstrap.Dropdown(dropdownReference, {
   boundary: 'clippingParents', // which sets boundary of dropdown menu. By default is string value of 'clippingParents' or DOM reference.
   reference: 'toggle', // which sets the reference element of the dropdown menu. By default is string value of 'toggle' or 'parent' or DOM reference or object that has `getBoundingClientRect`.
   display: 'dynamic', // which sets the position by default as 'dynamic', but it can be set to 'static' positioning.
@@ -171,7 +171,7 @@ var dropdown = new bootstrap.Carousel(dropdownReference, {
 ```
 
 
-- Methods to control collapse via JavaScript:
+- Methods to control dropdown via JavaScript:
   - `toggle()` - It toggles the given dropdown menu to be either visible or hidden.
   - `show()` - It makes dropdown menu to be visible.
   - `hide()` -  It makes dropdown menu to be hide.  
@@ -180,7 +180,7 @@ var dropdown = new bootstrap.Carousel(dropdownReference, {
   - `getInstance()` - Static method which allows to get the dropdown instance.
   - `getOrCreateInstance()` - Static method which returns a dropdown instance or create a new one in case it wasn't initialized yet.
 
-- Events related to collapse:
+- Events related to dropdown:
   - `show.bs.dropdown` - It triggers an event when the show instance method is invoked.
   - `shown.bs.dropdown` - It triggers an event when the dropdown menu gets visible to the user.  
   - `hide.bs.dropdown` - It triggers an event when the hide instance method is invoked.
