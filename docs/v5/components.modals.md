@@ -186,10 +186,10 @@ var modalReference = new bootstrap.Modal(document.getElementById('{modal-id}'), 
   - `getOrCreateInstance()` - Static method which returns a modal dialog boxes instance or create a new one in case it wasn't initialized yet.
 
 - Events related to modal boxes:
-  - `show.bs.tab` - It triggers an event when the show instance method is invoked.
-  - `shown.bs.tab` - It triggers an event when the modal boxes gets visible to the user.  
-  - `hide.bs.tab` - It triggers an event when the hide instance method is invoked.
-  - `hidden.bs.tab` - It triggers an event when the modal boxes gets hidden to the user.  
+  - `show.bs.modal` - It triggers an event when the show instance method is invoked.
+  - `shown.bs.modal` - It triggers an event when the modal boxes gets visible to the user.  
+  - `hide.bs.modal` - It triggers an event when the hide instance method is invoked.
+  - `hidden.bs.modal` - It triggers an event when the modal boxes gets hidden to the user.  
   - `hidePrevented.bs.modal` - It triggers an event when the modal boxes prevented to hide, due to the backdrop static or keyboard escape key.  
 
 ```javascript
