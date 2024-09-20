@@ -83,7 +83,7 @@ var toastReference = document.getElementById('{toast-id}');
 var toastElement = bootstrap.Toast.getOrCreateInstance(toastReference);
 ```
 
-- Events related to scrollspy:
+- Events related to toasts:
   - `show.bs.toast` - It triggers an event when the show instance method is invoked.
   - `shown.bs.toast` - It triggers an event when the toast gets visible to the user.  
   - `hide.bs.toast` - It triggers an event when the hide instance method is invoked.

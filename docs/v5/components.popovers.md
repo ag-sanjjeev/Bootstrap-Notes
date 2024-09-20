@@ -84,7 +84,7 @@ var popoverElement = new bootstrap.Popover(elementReference, {
   trigger: 'hover|click|focus|manual', // It sets the trigger event for popover and multiple event can be attached by space separated.
   fallbackPlacements: ['top', 'right', 'bottom', 'left'], // defines fallback placements in an array.
   boundary: 'clippingParents', // It sets overflow constraint boundary of popover. By default, it is 'clippingParents' and accepts DOM reference.
-  customClass: 'class-name', // It adds custom CSS classes to the popover.
+  customClass: 'class-name', // It adds custom CSS classes to the popover with space separated.
   sanitize: true, // It sanitizes the title and content if the template is given.
   allowList: object, // It sets allowed attribute and tags for popover.
   sanitizeFn: null, // To define custom sanitize function or to set null for it.
