@@ -206,6 +206,6 @@ modalElement.addEventListener('hidden.bs.modal', function (event) {...});
 ---
 [&#8682; To Top](#-modals)
 
-[&#10094; Previous Topic](./components.list-group.md) &emsp; [Next Topic &#10095;](./components.navs-and-tabs.md)
+[&#10094; Previous Topic](./components.list-group.md) &emsp; [Next Topic &#10095;](./components.navbar.md)
 
 [&#8962; Goto Home Page](../../README.md) &emsp; [&#9776; Goto Components](./components.md)
