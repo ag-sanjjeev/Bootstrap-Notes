@@ -1,75 +1,97 @@
 ## &#10022; Toasts:
-Bootstrap can update active state for navigation links and list group items based on the current active in the page using spying on scroll behavior.
+Bootstrap can create push notification with toast.
 
 *Syntax:*
-  - It works on [navs and tabs](./components.navs-and-tabs.md) and [list group](./components.list-group.md) components.
-  - It can spying on the element with `position:relative;` only.
-  - It requires [`<a>`](https://github.com/ag-sanjjeev/HTML-Notes/blob/master/tags/a-tag.md) tag with pointing to the element of their id.
+  - Toast must be initialized before utilize.
+  - Toast will be auto hide, to avoid need to specify `autohide:false`.
+  - `.toast` class will represent the container as toast message.
+  - `.toast-header` class will represent the header of toast.
+  - `.toast-body` class will represent the body of toast.
 
 ```html
-<!-- Navbar definition -->
-<nav id="{navbar-id}" class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="#">{Brand name}</a>
-  <ul class="nav nav-pills">
-    <li class="nav-item">
-      <a class="nav-link" href="#{section-id}">{Section name}</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#{section-id}">{Section name}</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#{section-id}">{Section name}</a>
-    </li>
-  </ul>
-</nav>
-
-<!-- Scrollspy Initiation -->
-<div data-bs-spy="scroll" data-bs-target="#{navbar-id}" data-bs-offset="0">
-  <div id="{section-id}">...</div>
-  <div id="{section-id}">...</div>
-  <div id="{section-id}">...</div>
+<!-- Toast definition -->
+<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <!-- Toast header -->
+  <div class="toast-header">
+    <!-- Toast title -->
+    <strong class="me-auto">{Title}</strong>    
+    <!-- Toast close button -->
+    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+  </div>
+  <!-- Toast body -->
+  <div class="toast-body">...</div>
 </div>
 ```
 
-- Scrollspy with list group:
+- Toast stacking:
+
+*Syntax: toasts are stacked by wrapper with `.toast-container` class.*
 
 ```html
-<!-- List group definition -->
-<div id="{list-group-id}" class="list-group">
-  <a class="list-group-item list-group-item-action" href="#{section-id}">{Section name}</a>
-  <a class="list-group-item list-group-item-action" href="#{section-id}">{Section name}</a>
-  <a class="list-group-item list-group-item-action" href="#{section-id}">{Section name}</a>
-</div>
-
-<!-- Scrollspy Initiation -->
-<div data-bs-spy="scroll" data-bs-target="#{navbar-id}" data-bs-offset="0">
-  <div id="{section-id}">...</div>
-  <div id="{section-id}">...</div>
-  <div id="{section-id}">...</div>
+<!-- Toast Container -->
+<div class="toast-container">
+  <!-- Toasts -->
+  <div class="toast">...</div>
+  <div class="toast">...</div>
 </div>
 ```
 
-- Accessing scrollspy via JavaScript:
+- Colored toasts:
+
+*Syntax: add `.bg-{primary|secondary|success|warning|danger|info}` background color classes.*
+
+```html
+<!-- Primary colored toast -->
+<div class="toast bg-primary text-light">...</div>
+```
+
+- Avoid auto hide toasts:
+
+*Syntax: add `data-bs-autohide="false"` attribute to `.toast` class.*
+
+```html
+<!-- Primary colored toast -->
+<div class="toast" data-bs-autohide="false">...</div>
+```
+
+- Accessing toast via JavaScript:
 ```javascript
-// Enabling scrollspy
-var scrollSpy = new bootstrap.ScrollSpy(document.body, {
-  target: '#{navbar-id}'
+// Enabling toast
+var toastList = [].slice.call(document.querySelectorAll('.toast'));
+var toastElementList = toastElList.map(function (element) {
+  return new bootstrap.Toast(element, option);
 });
 
 // Setting options
-var scrollspy = new bootstrap.ScrollSpy(document.body, {
-  target: '{element-reference}', // It applies scrollspy on targeted element and accepts string, DOM reference or jQuery object.
-  offset: 5, // It add offset for calculating top position of the element when scroll.
-  method: 'auto' // If it specified as 'auto' then it apply best method to get position of the element. or it is 'offset' then it will uses  Element.getBoundingClientRect() method for calculating position or it is 'position' then it will uses HTMLElement.offsetTop and HTMLElement.offsetLeft properties to get position of the element.
+var toastReference = document.getElementById('{toast-id}');
+var toastElement = new bootstrap.Toast(toastReference, {
+  animation: true, // It applies CSS fade animation to the toast.
+  autohide: false, // It decides auto hide of the toast.
+  dealy: 10000 // It decides delay for hide toast
 });
 ```
 
-- Events related to scrollspy:
-  - `activate.bs.scrollspy` - It triggers an event whenever the new item activated by scrollspy.
-  
+- Methods to control toast via JavaScript:
+  - `show()` - It makes the toast to be visible.
+  - `hide()` - It makes the toast to be hidden.
+  - `dispose()` - It removes toast from DOM tree.  
+  - `getInstance()` - Static method which allows to get the toast instance.
+  - `getOrCreateInstance()` - Static method which returns a toast instance or create a new one in case it wasn't initialized yet.
+
 ```javascript
-var scrollspyElement = document.querySelector('[data-bs-spy="scroll"]');
-scrollspyElement.addEventListener('activate.bs.scrollspy', function () { ... });
+var toastReference = document.getElementById('{toast-id}');
+var toastElement = bootstrap.Toast.getOrCreateInstance(toastReference);
+```
+
+- Events related to scrollspy:
+  - `show.bs.toast` - It triggers an event when the show instance method is invoked.
+  - `shown.bs.toast` - It triggers an event when the toast gets visible to the user.  
+  - `hide.bs.toast` - It triggers an event when the hide instance method is invoked.
+  - `hidden.bs.toast` - It triggers an event when the toast gets hidden to the user.  
+
+```javascript
+var toastReference = document.getElementById('{toast-id}');
+toastElement.addEventListener('show.bs.toast', function () { ... });
 ```
 
 ---
