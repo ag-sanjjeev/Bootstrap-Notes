@@ -97,16 +97,7 @@ Before diving into Bootstrap, ensure you have a strong foundation in:
       - [Text](#-text)
       - [Vertical align](#-vertical-align)
       - [Visibility](#-visibility)
-8. [JavaScript Integration:](#-javascript-integration)
-    - [jQuery Integration](#-jquery-integration)
-    - [Bootstrap JavaScript Plugins](#-bootstrap-javascript-plugins)
-9. [Responsive Design:](#-responsive-design)
-    - [Media Queries](#-media-queries)  
-    - [Responsive Utilities](#-responsive-utilities)
-10. [Advanced Topics:](#-advanced-topics)
-    - [Custom Components](#-custom-components)
-    - [Sass Integration](#-sass-integration)
-    - [Bootstrap Ecosystem](#-bootstrap-ecosystem)
+8. [jQuery Integration](#-jquery-integration)
 
 ---
 
