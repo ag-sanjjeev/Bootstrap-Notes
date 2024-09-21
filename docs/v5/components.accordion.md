@@ -1,4 +1,4 @@
-## &#10022; Accordion:
+## &#10162; Accordion:
 It is easy to create a collapsible component that allows users to expand or collapse sections of content using bootstrap.
 
 *Syntax:*
@@ -28,7 +28,9 @@ It is easy to create a collapsible component that allows users to expand or coll
 <div class="accordion-body"> ... </div>
 ```
 
-- To make content of accordion is expanded by made these changes.
+### &#10022; Accordion Expand:
+To make content of accordion is expanded by made these changes.
+
 ```html
 <!-- Made Changes in button -->
 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#{collapse-id}" aria-expanded="true" aria-controls="{collapse-id}">
@@ -66,7 +68,7 @@ It is easy to create a collapsible component that allows users to expand or coll
   </div>
 ```
 
-- Flush Accordion:
+### &#10022; Flush Accordion:
 To remove the default background-color, some borders, and some rounded borders. By adding `.accordion-flush` class to the `.accordion` classs.
 
 *Syntax:*

@@ -1,4 +1,4 @@
-## &#10022; Close Button:
+## &#10162; Close Button:
 Bootstrap can make button to be treated as close button for alerts, models and etc.,
 
 *Syntax: add `.btn-close` class*
@@ -6,12 +6,12 @@ Bootstrap can make button to be treated as close button for alerts, models and e
 <button type="button" class="btn-close" aria-label="Close"></button>
 ```
 
-- Disabled Close Button:
+### &#10022; Disabled Close Button:
 ```html
 <button type="button" class="btn-close" aria-label="Close" disabled></button>
 ```
 
-- White Colored Close Button for Dark Background:
+### &#10022; White Colored Close Button for Dark Background:
 ```html
 <button type="button" class="btn-close btn-close-white" aria-label="Close"></button>
 ```

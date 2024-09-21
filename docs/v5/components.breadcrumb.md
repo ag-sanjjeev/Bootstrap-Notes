@@ -1,4 +1,4 @@
-## &#10022; Breadcrumb:
+## &#10162; Breadcrumb:
 Breadcrumbs are used for indicating navigation tree or order or the page, Where you are in the current page. Bootstrap makes Breadcrumb looks rich and nice.
 
 *Syntax: add `.breadcrumb` class*
@@ -13,7 +13,9 @@ Breadcrumbs are used for indicating navigation tree or order or the page, Where 
 </nav>
 ``` 
 
-- To add custom dividers for breadcrumbs
+### &#10022; Dividers:
+To add custom dividers for breadcrumbs
+
 ```html
 <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
   <ol class="breadcrumb">

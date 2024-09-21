@@ -1,4 +1,4 @@
-## &#10022; Tooltips:
+## &#10162; Tooltips:
 Bootstrap can create beautiful tooltips with popperJs.
 
 *Syntax:*
@@ -19,7 +19,7 @@ var tooltipsElements = tooltipsList.map(function (element) {
 <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="{Tooltip message}">{Button text}</button>
 ```
 
-- Placement of tooltip:
+### &#10022; Placement of tooltip:
 
 *Syntax: add `data-bs-placement="{top|right|bottom|left}"` data attribute to the tooltip.*
 
@@ -37,7 +37,7 @@ var tooltipsElements = tooltipsList.map(function (element) {
 <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="left" title="{Tooltip message}">{Button text}</button>
 ```
 
-- Custom HTML tooltip message:
+### &#10022; Custom HTML tooltip message:
 
 *Syntax: add `data-bs-html="true"` data attribute to the element.*
 
@@ -45,7 +45,7 @@ var tooltipsElements = tooltipsList.map(function (element) {
 <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-html="true" title="This is <b>important</b> message">{Button text}</button>
 ```
 
-- Disabled tooltip:
+### &#10022; Disabled tooltip:
 
 ```html
 <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{Tooltip message}">
@@ -53,7 +53,7 @@ var tooltipsElements = tooltipsList.map(function (element) {
 </span>
 ```
 
-- Accessing tooltip via JavaScript:
+### &#10022; Accessing tooltip via JavaScript:
 ```javascript
 // Enabling tooltip
 var elementReference = document.getElementById('{tooltip-id}');
@@ -81,29 +81,29 @@ var tooltipElement = new bootstrap.Tooltip(elementReference, {
 });
 ```
 
-- Methods to control tooltip via JavaScript:
-  - `show()` - It makes the tooltip to be visible.
-  - `hide()` - It makes the tooltip to be hidden.
-  - `toggle()` - It toggles the state of the tooltip either show or hide.
-  - `dispose()` - It removes tooltip from DOM tree.
-  - `enable()` - It enables tooltip for the element. By default it is enabled if defined.
-  - `disable()` - It removes tooltip ability for the element.
-  - `toggleEnabled()` - It toggles the tooltip ability for the element if enabled then it disabled and vice versa.
-  - `update()` - It updates the position of tooltip.
-  - `getInstance()` - Static method which allows to get the tooltip instance.
-  - `getOrCreateInstance()` - Static method which returns a tooltip instance or create a new one in case it wasn't initialized yet.
+### &#10022; Methods to control tooltip via JavaScript:
+- `show()` - It makes the tooltip to be visible.
+- `hide()` - It makes the tooltip to be hidden.
+- `toggle()` - It toggles the state of the tooltip either show or hide.
+- `dispose()` - It removes tooltip from DOM tree.
+- `enable()` - It enables tooltip for the element. By default it is enabled if defined.
+- `disable()` - It removes tooltip ability for the element.
+- `toggleEnabled()` - It toggles the tooltip ability for the element if enabled then it disabled and vice versa.
+- `update()` - It updates the position of tooltip.
+- `getInstance()` - Static method which allows to get the tooltip instance.
+- `getOrCreateInstance()` - Static method which returns a tooltip instance or create a new one in case it wasn't initialized yet.
 
 ```javascript
 var elementReference = document.getElementById('{tooltip-id}');
 var tooltipElement = bootstrap.Tooltip.getOrCreateInstance(elementReference);
 ```
 
-- Events related to tooltip:
-  - `show.bs.tooltip` - It triggers an event when the show instance method is invoked.
-  - `shown.bs.tooltip` - It triggers an event when the tooltip gets visible to the user.  
-  - `hide.bs.tooltip` - It triggers an event when the hide instance method is invoked.
-  - `hidden.bs.tooltip` - It triggers an event when the tooltip gets hidden to the user.  
-  - `inserted.bs.tooltip` - It triggers an event after the `show.bs.tooltip` event when the tooltip template is added to the DOM.  
+### &#10022; Events related to tooltip:
+- `show.bs.tooltip` - It triggers an event when the show instance method is invoked.
+- `shown.bs.tooltip` - It triggers an event when the tooltip gets visible to the user.  
+- `hide.bs.tooltip` - It triggers an event when the hide instance method is invoked.
+- `hidden.bs.tooltip` - It triggers an event when the tooltip gets hidden to the user.  
+- `inserted.bs.tooltip` - It triggers an event after the `show.bs.tooltip` event when the tooltip template is added to the DOM.  
 
 ```javascript
 var elementReference = document.getElementById('{tooltip-id}');

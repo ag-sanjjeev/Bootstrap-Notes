@@ -1,4 +1,4 @@
-## &#10022; Borders:
+## &#10162; Borders:
 Apply borders, border color and style with predefined bootstrap classes.
 
 *Syntax:* 
@@ -16,7 +16,7 @@ Apply borders, border color and style with predefined bootstrap classes.
 <div class="border-start"></div>
 ```
 
-- **Remove borders:**
+### &#10022; **Remove borders:**
 
 *Syntax:* 
 - Add `.border-0` class for remove borders in all side of the element.
@@ -33,7 +33,7 @@ Apply borders, border color and style with predefined bootstrap classes.
 <div class="border-start-0"></div>
 ```
 
-- **Border color:**
+### &#10022; Border color:
 
 *Syntax: add `.border-{primary|secondary|success|warning|danger|info|light|dark|white}` class to the `.border` class.*
 
@@ -41,7 +41,7 @@ Apply borders, border color and style with predefined bootstrap classes.
 <div class="border border-primary"></div>
 ```
 
-- **Border width:**
+### &#10022; Border width:
 
 *Syntax: add `.border-{1|2|3|4|5}` class to the `.border` class.*
 
@@ -49,7 +49,7 @@ Apply borders, border color and style with predefined bootstrap classes.
 <div class="border border-1"></div>
 ```
 
-- **Border radius:**
+### &#10022; Border radius:
 
 *Syntax:* 
 - Add `.rounded` class to apply rounded corners on all side of the element.
@@ -64,7 +64,7 @@ Apply borders, border color and style with predefined bootstrap classes.
 <div class="rounder-top"></div>
 ```
 
-- **Radius sizing:**
+### &#10022; Radius sizing:
 
 *Syntax:*
 - Add `.rounded-0` class to avoid border radius.

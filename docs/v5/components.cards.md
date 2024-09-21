@@ -1,4 +1,4 @@
-## &#10022; Cards:
+## &#10162; Cards:
 Card means the container for the group of elements to make their looks like real world card shapes.
 
 *Syntax: add `.card` class*
@@ -6,47 +6,47 @@ Card means the container for the group of elements to make their looks like real
 <div class="card">...</div>
 ```
 
-**Associated classes and card elements:**
-- Card Header:
+### &#10022; Card Header:
 ```html
 <div class="card-header">...</div>
 ```
-- Card Title:
+
+### &#10022; Card Title:
 ```html
 <h3 class="card-title">...</h3>
 ```
 
-- Card Body:
+### &#10022; Card Body:
 ```html
 <div class="card-body">...</div>
 ```
 
-- Card Text:
+### &#10022; Card Text:
 ```html
 <p class="card-text">...</p>
 ```
 
-- Card Footer:
+### &#10022; Card Footer:
 ```html
 <div class="card-footer">...</div>
 ```
 
-- Card Link:
+### &#10022; Card Link:
 ```html
 <a href="#" class="card-link">...</a>
 ```
 
-- Card Image Top:
+### &#10022; Card Image Top:
 ```html
 <img src="..." class="card-img-top" alt="...">
 ```
 
-- Card Image Bottom:
+### &#10022; Card Image Bottom:
 ```html
 <img src="..." class="card-img-bottom" alt="...">
 ```
 
-- Card Image Overlay:
+### &#10022; Card Image Overlay:
 ```html
 <div class="card-img-overlay" style="background: url(...)">
   <h5 class="card-title">...</h5>
@@ -55,17 +55,21 @@ Card means the container for the group of elements to make their looks like real
 </div>
 ```
 
-- Card Group:
+### &#10022; Card Group:
 ```html
 <div class="card-group">...</div>
 ```
 
-- Change Background color of card with bootstrap background classes.
+### &#10022; Color schemes:
+To Change Background color of card with bootstrap background classes.
+
 ```html
 <div class="card bg-primary">...</div>
 ```
 
-- Change Border color of card with bootstrap border classes.
+### &#10022; Border:
+To Change Border color of card with bootstrap border classes.
+
 ```html
 <div class="card border-primary">...</div>
 ```

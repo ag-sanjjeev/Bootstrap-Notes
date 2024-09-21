@@ -1,4 +1,4 @@
-## &#10022; Pagination:
+## &#10162; Pagination:
 Create beautiful pagination links to refer paged section or content in the webpage using bootstrap.
 
 *Syntax:*
@@ -18,7 +18,7 @@ Create beautiful pagination links to refer paged section or content in the webpa
 </nav>
 ```
 
-- Disabled page item:
+### &#10022; Disabled page item:
 
 *Syntax: add `.disabled` class to the `.page-item` class.*
 
@@ -34,7 +34,7 @@ Create beautiful pagination links to refer paged section or content in the webpa
 </nav>
 ```
 
-- Active page item:
+### &#10022; Active page item:
 
 *Syntax: add `.active` class to the `.page-item` class.*
 
@@ -50,7 +50,7 @@ Create beautiful pagination links to refer paged section or content in the webpa
 </nav>
 ```
 
-- Sizing of pagination:
+### &#10022; Sizing of pagination:
 
 *Syntax: add `.pagination-{sm|lg}` classes to `.pagination` class.*
 
@@ -66,7 +66,7 @@ Create beautiful pagination links to refer paged section or content in the webpa
 </nav>
 ```
 
-- Alignment of pagination:
+### &#10022; Alignment of pagination:
 
 *Syntax:*
   - Add `.justify-content-center` class to `.pagination` class for center alignment.

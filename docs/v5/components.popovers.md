@@ -1,4 +1,4 @@
-## &#10022; Popovers:
+## &#10162; Popovers:
 Create beautiful positioned overlay toast next the elements using bootstrap with popperJs.
 
 ```javascript
@@ -23,7 +23,7 @@ let popoverElement = new bootstrap.Popover(document.querySelector('{popover-refe
 <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="{Popover title}" data-bs-content="{Popover message}">{Button text}</button>
 ```
 
-- Direction of popovers:
+### &#10022; Direction of popovers:
 
 *Syntax:*
   - `data-bs-placement="{top|right|bottom|left}"` attribute to the element.
@@ -43,7 +43,7 @@ let popoverElement = new bootstrap.Popover(document.querySelector('{popover-refe
 
 ```
 
-- Dismiss on click:
+### &#10022; Dismiss on click:
 
 *Syntax:* 
   - Use [`<a>`](https://github.com/ag-sanjjeev/HTML-Notes/blob/master/tags/a-tag.md) tag rather than [`<button>`](https://github.com/ag-sanjjeev/HTML-Notes/blob/master/tags/button-tag.md) tag.
@@ -54,7 +54,7 @@ let popoverElement = new bootstrap.Popover(document.querySelector('{popover-refe
 <a role="button" class="btn btn-primary" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" title="{Popover title}" data-bs-content="{Popover message}">{Link text}</a>
 ```
 
-- Disabled popovers:
+### &#10022; Disabled popovers:
 
 *Syntax: add `disabled` attribute to popover button.*
 
@@ -64,7 +64,7 @@ let popoverElement = new bootstrap.Popover(document.querySelector('{popover-refe
 </span>
 ```
 
-- Accessing popovers via JavaScript:
+### &#10022; Accessing popovers via JavaScript:
 ```javascript
 // Enabling popovers
 var elementReference = document.getElementById('{element-id}');
@@ -93,30 +93,29 @@ var popoverElement = new bootstrap.Popover(elementReference, {
 });
 ```
 
-- Methods to control popover via JavaScript:
-  - `show()` - It makes the popover to be visible.
-  - `hide()` - It makes the popover to be hidden.
-  - `toggle()` - It toggles the state of the popover either show or hide.
-  - `dispose()` - It removes popover from DOM tree.
-  - `enable()` - It enables popover for the element. By default it is enabled if defined.
-  - `disable()` - It removes popover ability for the element.
-  - `toggleEnabled()` - It toggles the popover ability for the element if enabled then it disabled and vice versa.
-  - `update()` - It updates the position of popover.
-  - `getInstance()` - Static method which allows to get the popover instance.
-  - `getOrCreateInstance()` - Static method which returns a popover instance or create a new one in case it wasn't initialized yet.
+### &#10022; Methods to control popover via JavaScript:
+- `show()` - It makes the popover to be visible.
+- `hide()` - It makes the popover to be hidden.
+- `toggle()` - It toggles the state of the popover either show or hide.
+- `dispose()` - It removes popover from DOM tree.
+- `enable()` - It enables popover for the element. By default it is enabled if defined.
+- `disable()` - It removes popover ability for the element.
+- `toggleEnabled()` - It toggles the popover ability for the element if enabled then it disabled and vice versa.
+- `update()` - It updates the position of popover.
+- `getInstance()` - Static method which allows to get the popover instance.
+- `getOrCreateInstance()` - Static method which returns a popover instance or create a new one in case it wasn't initialized yet.
 
-- Events related to popover:
-  - `show.bs.popover` - It triggers an event when the show instance method is invoked.
-  - `shown.bs.popover` - It triggers an event when the popover gets visible to the user.  
-  - `hide.bs.popover` - It triggers an event when the hide instance method is invoked.
-  - `hidden.bs.popover` - It triggers an event when the popover gets hidden to the user.  
-  - `inserted.bs.popover` - It triggers an event after the `show.bs.popover` event when the popover template is added to the DOM.  
+### &#10022; Events related to popover:
+- `show.bs.popover` - It triggers an event when the show instance method is invoked.
+- `shown.bs.popover` - It triggers an event when the popover gets visible to the user.  
+- `hide.bs.popover` - It triggers an event when the hide instance method is invoked.
+- `hidden.bs.popover` - It triggers an event when the popover gets hidden to the user.  
+- `inserted.bs.popover` - It triggers an event after the `show.bs.popover` event when the popover template is added to the DOM.  
 
 ```javascript
 var popoverElement = document.getElementById('{popover-id}');
 popoverElement.addEventListener('show.bs.popover', function (event) { ... });
 ```
-
 
 ---
 [&#8682; To Top](#-popovers)

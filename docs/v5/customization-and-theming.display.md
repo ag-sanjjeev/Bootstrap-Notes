@@ -1,4 +1,4 @@
-## &#10022; Display:
+## &#10162; Display:
 Apply display property to the element with bootstrap class on different breakpoints.
 
 *Syntax:* 
@@ -32,7 +32,7 @@ Apply display property to the element with bootstrap class on different breakpoi
 <div class="d-none d-md-block d-lg-inline">...</div>
 ```
 
-- Display for print:
+### &#10022; Display for print:
 Apply display property to the elements when printing.
 
 *Syntax: `.d-print-{value}`*

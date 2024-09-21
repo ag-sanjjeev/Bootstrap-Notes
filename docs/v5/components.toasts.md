@@ -1,4 +1,4 @@
-## &#10022; Toasts:
+## &#10162; Toasts:
 Bootstrap can create push notification with toast.
 
 *Syntax:*
@@ -23,7 +23,7 @@ Bootstrap can create push notification with toast.
 </div>
 ```
 
-- Toast stacking:
+### &#10022; Toast stacking:
 
 *Syntax: toasts are stacked by wrapper with `.toast-container` class.*
 
@@ -36,7 +36,7 @@ Bootstrap can create push notification with toast.
 </div>
 ```
 
-- Colored toasts:
+### &#10022; Colored toasts:
 
 *Syntax: add `.bg-{primary|secondary|success|warning|danger|info}` background color classes.*
 
@@ -45,7 +45,7 @@ Bootstrap can create push notification with toast.
 <div class="toast bg-primary text-light">...</div>
 ```
 
-- Avoid auto hide toasts:
+### &#10022; Avoid auto hide toasts:
 
 *Syntax: add `data-bs-autohide="false"` attribute to `.toast` class.*
 
@@ -54,7 +54,7 @@ Bootstrap can create push notification with toast.
 <div class="toast" data-bs-autohide="false">...</div>
 ```
 
-- Accessing toast via JavaScript:
+### &#10022; Accessing toast via JavaScript:
 ```javascript
 // Enabling toast
 var toastList = [].slice.call(document.querySelectorAll('.toast'));
@@ -71,23 +71,23 @@ var toastElement = new bootstrap.Toast(toastReference, {
 });
 ```
 
-- Methods to control toast via JavaScript:
-  - `show()` - It makes the toast to be visible.
-  - `hide()` - It makes the toast to be hidden.
-  - `dispose()` - It removes toast from DOM tree.  
-  - `getInstance()` - Static method which allows to get the toast instance.
-  - `getOrCreateInstance()` - Static method which returns a toast instance or create a new one in case it wasn't initialized yet.
+### &#10022; Methods to control toast via JavaScript:
+- `show()` - It makes the toast to be visible.
+- `hide()` - It makes the toast to be hidden.
+- `dispose()` - It removes toast from DOM tree.  
+- `getInstance()` - Static method which allows to get the toast instance.
+- `getOrCreateInstance()` - Static method which returns a toast instance or create a new one in case it wasn't initialized yet.
 
 ```javascript
 var toastReference = document.getElementById('{toast-id}');
 var toastElement = bootstrap.Toast.getOrCreateInstance(toastReference);
 ```
 
-- Events related to toasts:
-  - `show.bs.toast` - It triggers an event when the show instance method is invoked.
-  - `shown.bs.toast` - It triggers an event when the toast gets visible to the user.  
-  - `hide.bs.toast` - It triggers an event when the hide instance method is invoked.
-  - `hidden.bs.toast` - It triggers an event when the toast gets hidden to the user.  
+### &#10022; Events related to toasts:
+- `show.bs.toast` - It triggers an event when the show instance method is invoked.
+- `shown.bs.toast` - It triggers an event when the toast gets visible to the user.  
+- `hide.bs.toast` - It triggers an event when the hide instance method is invoked.
+- `hidden.bs.toast` - It triggers an event when the toast gets hidden to the user.  
 
 ```javascript
 var toastReference = document.getElementById('{toast-id}');

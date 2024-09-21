@@ -1,4 +1,4 @@
-## &#10022; Badge:
+## &#10162; Badge:
 Create beautiful label element that looks like rectangle rounded badge. Bootstrap offers to create various types of badge.
 
 *Syntax: add `.badge` class to the element*
@@ -7,9 +7,12 @@ Create beautiful label element that looks like rectangle rounded badge. Bootstra
 <span class="badge bg-primary">{Label Content}</span>
 ```
 
-- Various badges can be created with adding background classes such as `bg-primary, bg-secondary, bg-success, bg-danger, bg-warning, bg-info, bg-light, bg-dark`.
+### &#10022; Color schemes:
+Various badges can be created with adding background classes such as `bg-primary, bg-secondary, bg-success, bg-danger, bg-warning, bg-info, bg-light, bg-dark`.
 
-- Create rounded pills with badge by adding `.rounded-pill` class.
+### &#10022; Rounded:
+Create rounded pills with badge by adding `.rounded-pill` class.
+
 ```html
 <span class="badge rounded-pill bg-success">{Label Content}</span>
 ```

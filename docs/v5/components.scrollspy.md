@@ -1,4 +1,4 @@
-## &#10022; Scrollspy:
+## &#10162; Scrollspy:
 Bootstrap can update active state for navigation links and list group items based on the current active in the page using spying on scroll behavior.
 
 *Syntax:*
@@ -31,7 +31,7 @@ Bootstrap can update active state for navigation links and list group items base
 </div>
 ```
 
-- Scrollspy with list group:
+### &#10022; Scrollspy with list group:
 
 ```html
 <!-- List group definition -->
@@ -49,7 +49,7 @@ Bootstrap can update active state for navigation links and list group items base
 </div>
 ```
 
-- Accessing scrollspy via JavaScript:
+### &#10022; Accessing scrollspy via JavaScript:
 ```javascript
 // Enabling scrollspy
 var scrollSpy = new bootstrap.ScrollSpy(document.body, {
@@ -64,8 +64,8 @@ var scrollspy = new bootstrap.ScrollSpy(document.body, {
 });
 ```
 
-- Events related to scrollspy:
-  - `activate.bs.scrollspy` - It triggers an event whenever the new item activated by scrollspy.
+### &#10022; Events related to scrollspy:
+- `activate.bs.scrollspy` - It triggers an event whenever the new item activated by scrollspy.
   
 ```javascript
 var scrollspyElement = document.querySelector('[data-bs-spy="scroll"]');

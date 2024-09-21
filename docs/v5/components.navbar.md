@@ -1,4 +1,4 @@
-## &#10022; Navbar:
+## &#10162; Navbar:
 Create beautiful and responsive navigation header using bootstrap classes.
 - Navbar created with `.navbar` class, responsive collapsive `.navbar-expand-{sm|md|lg|xl|xxl}` class and color schemes. 
 
@@ -9,7 +9,7 @@ Create beautiful and responsive navigation header using bootstrap classes.
 </nav>
 ```
 
-- Represent Brand in the navigation:
+### &#10022; Represent Brand in the navigation:
 
 *Syntax: add `.navbar-brand` class*
 
@@ -38,7 +38,7 @@ Create beautiful and responsive navigation header using bootstrap classes.
 </nav>
 ```
 
-- Adding navigation link items:
+### &#10022; Adding navigation link items:
 
 *Syntax: add `.nav-link` class*
 
@@ -82,7 +82,7 @@ Create beautiful and responsive navigation header using bootstrap classes.
 </nav>
 ```
 
-- Navigation link items with dropdown:
+### &#10022; Navigation link items with dropdown:
 
 *Syntax: add `.dropdown` class to the `.nav-item` class*
 
@@ -122,7 +122,7 @@ Create beautiful and responsive navigation header using bootstrap classes.
 </nav>
 ```
 
-- Navbar text:
+### &#10022; Navbar text:
 
 *Syntax: add `.navbar-text` class*
 
@@ -134,7 +134,7 @@ Create beautiful and responsive navigation header using bootstrap classes.
 </nav>
 ```
 
-- Color scheme:
+### &#10022; Color scheme:
 
 *Syntax:*
   - Add `.navbar-dark` class will treat that background color of navbar in dark. So, that change text colors as light.
@@ -151,7 +151,7 @@ Create beautiful and responsive navigation header using bootstrap classes.
 </nav>
 ```
 
-- Fixed top navbar:
+### &#10022; Fixed top navbar:
 
 *Syntax: add `.fixed-top` class to `.navbar` class.*
 
@@ -161,7 +161,7 @@ Create beautiful and responsive navigation header using bootstrap classes.
 </nav>
 ```
 
-- Fixed bottom navbar:
+### &#10022; Fixed bottom navbar:
 
 *Syntax: add `.fixed-bottom` class to `.navbar` class.*
 
@@ -171,7 +171,7 @@ Create beautiful and responsive navigation header using bootstrap classes.
 </nav>
 ```
 
-- Sticky top navbar:
+### &#10022; Sticky top navbar:
 
 *Syntax: add `.sticky-top` class to `.navbar` class.*
 

@@ -1,4 +1,4 @@
-## &#10022; Carousel:
+## &#10162; Carousel:
 Carousel means slider element which make slideshow for the elements to cyclic through it.
 
 *Syntax: add `.carousel` and `.slide` classes with bootstrap data attribute `data-bs-ride="carousel"`*
@@ -6,16 +6,16 @@ Carousel means slider element which make slideshow for the elements to cyclic th
 <div id="{carousel-id}" class="carousel slide" data-bs-ride="carousel">...</div>
 ```
 
-**Associated classes and card elements:**
-
-- Carousel Inner:
+### &#10022; Carousel Inner:
 Container for carousel items
+
 ```html
 <div id="{carousel-id}" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">...</div>
 </div>
 ```
-- Carousel Items:
+
+### &#10022; Carousel Items:
 ```html
 <div id="{carousel-id}" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
@@ -26,12 +26,12 @@ Container for carousel items
 </div>
 ```
 
-- Active Carousel Item:
+### &#10022; Active Carousel Item:
 ```html
 <div class="carousel-item active">...</div>
 ```
 
-- Carousel Control:
+### &#10022; Carousel Control:
 Add buttons after carousel inner container. 
 
 *Carousel Previous Button: It will be located in the left side of carousel.* 
@@ -43,7 +43,9 @@ Add buttons after carousel inner container.
   <span class="visually-hidden">Previous</span>
 </button>
 ```
+
 *Carousel Next Button: It will be located in the right side of carousel.*
+
 ```html
 <!-- Next Button -->
 <button class="carousel-control-next" type="button" data-bs-target="#{carousel-id}" data-bs-slide="next">
@@ -52,8 +54,9 @@ Add buttons after carousel inner container.
 </button>
 ```
 
-- Carousel With Indicator:
+### &#10022; Carousel With Indicator:
 To indicate which carousel item is being active or displayed and line up slides in the indicator.
+
 ```html
 <div class="carousel-indicators">
   <!-- Indicated the active or current slide -->
@@ -65,8 +68,9 @@ To indicate which carousel item is being active or displayed and line up slides 
 </div>
 ```
 
-- Carousel Caption:
+### &#10022; Carousel Caption:
 Carousel item can have carousel caption text.
+
 ```html
 <div class="carousel-item">  
   <div class="carousel-caption">
@@ -76,38 +80,42 @@ Carousel item can have carousel caption text.
 </div>
 ```
 
-- Carousel Cross Fade Effect:
+### &#10022; Carousel Cross Fade Effect:
 To make fade in and fade out between slide transition, add `.carousel-fade` class to the `.carousel` class.
+
 ```html
 <div id="{carousel-id}" class="carousel slide carousel-fade" data-bs-ride="carousel">...</div>
 ```
 
-- Carousel Slide Interval:
+### &#10022; Carousel Slide Interval:
 To add interval between each slides or how long the carousel item to be active or displayed by adding bootstrap data attribute `data-bs-interval="{interval-in-milli-seconds}"`.
+
 ```html
 <div class="carousel-item" data-bs-interval="2000">...</div>
 <div class="carousel-item" data-bs-interval="3000">...</div>
 ```
 
-- Disable Touch Swip:
+### &#10022; Disable Touch Swip:
 To use carousel control button rather than touch swip. To disabling touch swip by adding bootstrap data attribute `data-bs-touch="false"`.
+
 ```html
 <div id="{carousel-id}" class="carousel slide carousel-fade" data-bs-touch="false" data-bs-ride="carousel">...</div>
 ```
 
-- Carousel Dark Themed:
+### &#10022; Carousel Dark Themed:
 To apply dark theme for carousel by adding `.carousel-dark` class to the `.carousel` class.
+
 ```html
 <div id="{carousel-id}" class="carousel carousel-dark slide carousel-fade" data-bs-touch="false" data-bs-ride="carousel">...</div>
 ```
 
-- Accessing carousel via JavaScript:
+### &#10022; Accessing carousel via JavaScript:
 ```javascript
 var carouselReference = document.querySelector('#{carousel-id}');
 var carousel = new bootstrap.Carousel(carouselReference);
 ```
 
-- Add options to carousel via JavaScript:
+### &#10022; Add options to carousel via JavaScript:
 ```javascript
 var carouselReference = document.querySelector('#{carousel-id}');
 var carousel = new bootstrap.Carousel(carouselReference, {
@@ -120,21 +128,22 @@ var carousel = new bootstrap.Carousel(carouselReference, {
 })
 ```
 
-- Methods to control carousel via JavaScript:
-  - `cycle()` - It makes carousel to cycles through next item from left to right.
-  - `pause()` - It stops the carousel being cycling through items.
-  - `prev()` -  It makes carousel to cycle through previous item.
-  - `next()` -  It makes carousel to cycle through next item.
-  - `nextWhenVisible()` - It would not allow to cycle through carousel items when the page or the carousel or its parent is not visible. 
-  - `to()` -  Switch to particular carousel item by mentioning the item number.
-  - `dispose()` - It removes carousel from DOM tree.
-  - `getInstance()` - Static method which allows to get the carousel instance.
-  - `getOrCreateInstance()` - Static method which returns a carousel instance or create a new one in case it wasn't initialized yet.
+### &#10022; Methods to control carousel via JavaScript:
+- `cycle()` - It makes carousel to cycles through next item from left to right.
+- `pause()` - It stops the carousel being cycling through items.
+- `prev()` -  It makes carousel to cycle through previous item.
+- `next()` -  It makes carousel to cycle through next item.
+- `nextWhenVisible()` - It would not allow to cycle through carousel items when the page or the carousel or its parent is not visible. 
+- `to()` -  Switch to particular carousel item by mentioning the item number.
+- `dispose()` - It removes carousel from DOM tree.
+- `getInstance()` - Static method which allows to get the carousel instance.
+- `getOrCreateInstance()` - Static method which returns a carousel instance or create a new one in case it wasn't initialized yet.
 
-- Events related to carousel:
-  - `slide.bs.carousel` - It triggers an event when the slide instance method is invoked.
-  - `slid.bs.carousel` - It triggers an event when the carousel has completed its slide transition.
-  - Each event has properties such as `direction, relatedTarget, from, to`.
+### &#10022; Events related to carousel:
+- `slide.bs.carousel` - It triggers an event when the slide instance method is invoked.
+- `slid.bs.carousel` - It triggers an event when the carousel has completed its slide transition.
+- Each event has properties such as `direction, relatedTarget, from, to`.
+
 ```javascript
 var carouselReference = document.querySelector('#{carousel-id}');
 carouselReference.addEventListener('slid.bs.carousel', function (event) { ... });

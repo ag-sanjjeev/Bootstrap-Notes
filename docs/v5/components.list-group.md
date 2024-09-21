@@ -1,4 +1,4 @@
-## &#10022; List Group:
+## &#10162; List Group:
 Create beautiful list items, series of contents and custom groups of items. Bootstrap offers to create various types of list groups.
 
 *Syntax:* 
@@ -13,7 +13,7 @@ Create beautiful list items, series of contents and custom groups of items. Boot
 </ul>
 ```
 
-- Active List Items:
+### &#10022; Active List Items:
 To make list item become active using bootstrap class.
 
 *Syntax: add `.active` class to the `.list-group-item` class.*
@@ -25,7 +25,7 @@ To make list item become active using bootstrap class.
 </ul>
 ```
 
-- Disabled List Items:
+### &#10022; Disabled List Items:
 To make list item become disabled using bootstrap class.
 
 *Syntax: add `.disabled` class to the `.list-group-item` class.*
@@ -37,7 +37,7 @@ To make list item become disabled using bootstrap class.
 </ul>
 ```
 
-- Link or Button List Items:
+### &#10022; Link or Button List Items:
 To treat link or button elements as a list item using bootstrap class.
 
 *Syntax: add `.list-group-item-action` class to the `.list-group-item` class.*
@@ -49,7 +49,7 @@ To treat link or button elements as a list item using bootstrap class.
 </ul>
 ```
 
-- Flush List Items:
+### &#10022; Flush List Items:
 To make list item without some borders and rounded corners using bootstrap class.
 
 *Syntax: add `.list-group-flush` class to the `.list-group` class.*
@@ -61,7 +61,7 @@ To make list item without some borders and rounded corners using bootstrap class
 </ul>
 ```
 
-- Numbered List Items:
+### &#10022; Numbered List Items:
 To make list item to be a numbered or ordered list item using bootstrap class.
 
 *Syntax: add `.list-group-numbered` class to the `.list-group` class.*
@@ -73,7 +73,7 @@ To make list item to be a numbered or ordered list item using bootstrap class.
 </ul>
 ```
 
-- Horizontal List Items:
+### &#10022; Horizontal List Items:
 To make list item arranged in horizontal axis using bootstrap class.
 
 *Syntax: add `.list-group-numbered` class to the `.list-group` class.*
@@ -98,7 +98,7 @@ To make list item arranged in horizontal axis using bootstrap class.
 <ul class="list-group list-group-horizontal-xxl">...</ul>
 ```
 
-- Colored List Items:
+### &#10022; Colored List Items:
 Various colored list item can be created with adding bootstrap classes such as `.list-group-item-{primary|secondary|success|danger|warning|info|light|dark}`.
 
 ```html
@@ -107,7 +107,7 @@ Various colored list item can be created with adding bootstrap classes such as `
 </ul>
 ```
 
-- List group with Tab:
+### &#10022; List group with Tab:
 To attach action to the list item for revealing content from respective tabbable panes.
 
 ```html
@@ -151,7 +151,7 @@ bootstrap.Tab.getInstance(listItem).show();
 </script>
 ```
 
-- List group with Tabs without JavaScript:
+### &#10022; List group with Tabs without JavaScript:
 It can be attached tabbable panes to the list items with `data-bs-toggle="list"` data attributes and `href="{tab-id}"` attribute.
 
 ```html
@@ -174,7 +174,7 @@ It can be attached tabbable panes to the list items with `data-bs-toggle="list"`
 </div>
 ```
 
-- Accessing list group via JavaScript:
+### &#10022; Accessing list group via JavaScript:
 ```javascript
 var listItemElements = [].slice.call(document.querySelectorAll('{list-group-id} a'));
 var listItems = listItemElements.map(function (element) {
@@ -182,17 +182,17 @@ var listItems = listItemElements.map(function (element) {
 });
 ```
 
-- Methods to control tabbable panes via JavaScript:
-  - `show()` - It makes tabbable panes to be visible.
-  - `dispose()` - It removes tabbable panes from DOM tree.
-  - `getInstance()` - Static method which allows to get the tabbable panes instance.
-  - `getOrCreateInstance()` - Static method which returns a tabbable panes instance or create a new one in case it wasn't initialized yet.
+### &#10022; Methods to control tabbable panes via JavaScript:
+- `show()` - It makes tabbable panes to be visible.
+- `dispose()` - It removes tabbable panes from DOM tree.
+- `getInstance()` - Static method which allows to get the tabbable panes instance.
+- `getOrCreateInstance()` - Static method which returns a tabbable panes instance or create a new one in case it wasn't initialized yet.
 
-- Events related to tabbable panes:
-  - `show.bs.tab` - It triggers an event when the show instance method is invoked.
-  - `shown.bs.tab` - It triggers an event when the tabbable pane gets visible to the user.  
-  - `hide.bs.tab` - It triggers an event when the hide instance method is invoked.
-  - `hidden.bs.tab` - It triggers an event when the tabbable pane gets hidden to the user.  
+### &#10022; Events related to tabbable panes:
+- `show.bs.tab` - It triggers an event when the show instance method is invoked.
+- `shown.bs.tab` - It triggers an event when the tabbable pane gets visible to the user.  
+- `hide.bs.tab` - It triggers an event when the hide instance method is invoked.
+- `hidden.bs.tab` - It triggers an event when the tabbable pane gets hidden to the user.  
 
 ```javascript
 var listItemElements = document.querySelectorAll('{list-group-id} a');

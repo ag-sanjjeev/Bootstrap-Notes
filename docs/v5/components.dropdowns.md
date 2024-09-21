@@ -1,4 +1,4 @@
-## &#10022; Dropdowns:
+## &#10162; Dropdowns:
 Dropdowns are list, that are toggle-able to overlay on next parent to display links or list items.
 
 *Syntax:*
@@ -17,7 +17,7 @@ Dropdowns are list, that are toggle-able to overlay on next parent to display li
 </div>
 ```
 
-- Split button dropdown toggle by button group:
+### &#10022; Split button dropdown toggle by button group:
   *Add `.dropdown-toggle-split` class to the `.dropdown-toggle` class.*
 
 ```html
@@ -34,12 +34,12 @@ Dropdowns are list, that are toggle-able to overlay on next parent to display li
 </div>
 ```
 
-- Dropdown divider:
+### &#10022; Dropdown divider:
 ```html
 <li><hr class="dropdown-divider"></li>
 ``` 
 
-- Dark Dropdown:
+### &#10022; Dark Dropdown:
 ```html
 <div class="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="{button-id}" data-bs-toggle="dropdown" aria-expanded="false">{Button Text}</button>
@@ -53,7 +53,7 @@ Dropdowns are list, that are toggle-able to overlay on next parent to display li
 </div>
 ```
 
-- Navigation Dropdown:
+### &#10022; Navigation Dropdown:
   *Add dropdown with `.nav-item` class to implement dropdown in navigation menu.*
 
 ```html
@@ -67,32 +67,36 @@ Dropdowns are list, that are toggle-able to overlay on next parent to display li
 </li>
 ```
 
-- Drop up direction dropdown:
+### &#10022; Drop up direction dropdown:
   *Add `.dropup` class to the `.btn-group` class wrapper.*
+
 ```html
 <div class="btn-group dropup">
   ...
 </div>
 ```
 
-- Drop Right direction dropdown:
+### &#10022; Drop Right direction dropdown:
   *Add `.dropend` class to the `.btn-group` class wrapper.*
+
 ```html
 <div class="btn-group dropend">
   ...
 </div>
 ```
 
-- Drop Left direction dropdown:
+### &#10022; Drop Left direction dropdown:
   *Add `.dropstart` class to the `.btn-group` class wrapper.*
+
 ```html
 <div class="btn-group dropstart">
   ...
 </div>
 ```
 
-- Active dropdown item:
+### &#10022; Active dropdown item:
   *Add `.active` class to the `.dropdown-item` class.*
+
 ```html
 <ul class="dropdown-menu">
   ...
@@ -101,8 +105,9 @@ Dropdowns are list, that are toggle-able to overlay on next parent to display li
 </ul>
 ```
 
-- Disabled dropdown item:
+### &#10022; Disabled dropdown item:
   *Add `.disabled` class to the `.dropdown-item` class.*
+
 ```html
 <ul class="dropdown-menu">
   ...
@@ -111,8 +116,9 @@ Dropdowns are list, that are toggle-able to overlay on next parent to display li
 </ul>
 ```
 
-- Dropdown menu alignment:
+### &#10022; Dropdown menu alignment:
   *Add `.dropdown-menu-end` class to the `.dropdown-menu` class for right alignment. But default is left alignment to force left alignment `.dropdown-menu-start` class. This direction is mirrored when RTL usage.*
+
 ```html
 <ul class="dropdown-menu dropdown-menu-end">
   ...
@@ -121,7 +127,7 @@ Dropdowns are list, that are toggle-able to overlay on next parent to display li
 </ul>
 ```
 
-- Responsive dropdown menu alignment:
+### &#10022; Responsive dropdown menu alignment:
   *Disable dynamic positioning by adding `data-bs-display="static"` to the dropdown button and Add `.dropdown-menu-{sm|md|lg|xl|xxl}-end` classes for different screen sizes.*
 
 ```html
@@ -133,23 +139,25 @@ Dropdowns are list, that are toggle-able to overlay on next parent to display li
 </ul>
 ```
 
-- Dropdown offset:
+### &#10022; Dropdown offset:
   *Add `data-bs-offset="{skidding},{distance}"` attribute to the dropdown button. That will apply offset to the dropdown menu.*
+
 ```html
 <button type="button" class="btn btn-primary dropdown-toggle" id="{button-id}" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="5,25">{Button Text}</button>
 ```
 
-- Autoclose dropdown:
-  - Add `data-bs-auto-close="{value}"` attribute to the dropdown button. 
-  - If the value is `true`, then the dropdown menu close by clicking the list item or outside the menu. 
-  - If the value is `false`, then it will not close until click that toggle again.
-  - If the value is `inside`, then it will close when click inside the menu or toggle the button.
-  - If the value is `outside`, then it will close when click outside the menu or toggle the button.
+### &#10022; Autoclose dropdown:
+- Add `data-bs-auto-close="{value}"` attribute to the dropdown button. 
+- If the value is `true`, then the dropdown menu close by clicking the list item or outside the menu. 
+- If the value is `false`, then it will not close until click that toggle again.
+- If the value is `inside`, then it will close when click inside the menu or toggle the button.
+- If the value is `outside`, then it will close when click outside the menu or toggle the button.
+
 ```html
 <button class="btn btn-primary dropdown-toggle" type="button" id="{button-id}" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">{Button Text}</button>
 ```
 
-- Accessing dropdown via JavaScript:
+### &#10022; Accessing dropdown via JavaScript:
 ```javascript
 var dropdownElements = [].slice.call(document.querySelectorAll('.dropdown-toggle'));
 var dropdownList = dropdownElements.map(function (element) {
@@ -157,7 +165,7 @@ var dropdownList = dropdownElements.map(function (element) {
 });
 ```
 
-- Add options to dropdown via JavaScript:
+### &#10022; Add options to dropdown via JavaScript:
 ```javascript
 var dropdownReference = document.querySelector('#{dropdown-id}');
 var dropdown = new bootstrap.Dropdown(dropdownReference, {
@@ -171,20 +179,20 @@ var dropdown = new bootstrap.Dropdown(dropdownReference, {
 ```
 
 
-- Methods to control dropdown via JavaScript:
-  - `toggle()` - It toggles the given dropdown menu to be either visible or hidden.
-  - `show()` - It makes dropdown menu to be visible.
-  - `hide()` -  It makes dropdown menu to be hide.  
-  - `update()` - It updates position of dropdown menu elements.
-  - `dispose()` - It removes dropdown from DOM tree.
-  - `getInstance()` - Static method which allows to get the dropdown instance.
-  - `getOrCreateInstance()` - Static method which returns a dropdown instance or create a new one in case it wasn't initialized yet.
+### &#10022; Methods to control dropdown via JavaScript:
+- `toggle()` - It toggles the given dropdown menu to be either visible or hidden.
+- `show()` - It makes dropdown menu to be visible.
+- `hide()` -  It makes dropdown menu to be hide.  
+- `update()` - It updates position of dropdown menu elements.
+- `dispose()` - It removes dropdown from DOM tree.
+- `getInstance()` - Static method which allows to get the dropdown instance.
+- `getOrCreateInstance()` - Static method which returns a dropdown instance or create a new one in case it wasn't initialized yet.
 
-- Events related to dropdown:
-  - `show.bs.dropdown` - It triggers an event when the show instance method is invoked.
-  - `shown.bs.dropdown` - It triggers an event when the dropdown menu gets visible to the user.  
-  - `hide.bs.dropdown` - It triggers an event when the hide instance method is invoked.
-  - `hidden.bs.dropdown` - It triggers an event when the dropdown menu gets hidden to the user.  
+### &#10022; Events related to dropdown:
+- `show.bs.dropdown` - It triggers an event when the show instance method is invoked.
+- `shown.bs.dropdown` - It triggers an event when the dropdown menu gets visible to the user.  
+- `hide.bs.dropdown` - It triggers an event when the hide instance method is invoked.
+- `hidden.bs.dropdown` - It triggers an event when the dropdown menu gets hidden to the user.  
 
 ```javascript
 var dropdownElement = document.getElementById('{dropdown-id}')

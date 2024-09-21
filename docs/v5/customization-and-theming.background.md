@@ -1,4 +1,4 @@
-## &#10022; Background:
+## &#10162; Background:
 Apply background color and gradients with predefined colors for the element with bootstrap classes.
 
 *Syntax: add `.bg-{primary|secondary|success|warning|danger|info|light|dark|body|white|transparent}` class to the element*
@@ -7,7 +7,7 @@ Apply background color and gradients with predefined colors for the element with
 <div class="bg-primary">...</div>
 ```
 
-- Background gradient:
+### &#10022; Background gradient:
 
 *Syntax: add `.bg-gradient` class with background color classes.*
 
