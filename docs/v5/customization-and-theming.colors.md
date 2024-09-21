@@ -1,4 +1,4 @@
-## &#10022; Colors:
+## &#10162; Colors:
 Apply color to text contents with predefined bootstrap classes.
 
 *Syntax: add `.text-{primary|secondary|success|warning|danger|info|light|dark|body|muted|white|white-50|black-50}` class to the element.*

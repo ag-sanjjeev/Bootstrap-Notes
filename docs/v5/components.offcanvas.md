@@ -1,4 +1,4 @@
-## &#10022; Offcanvas:
+## &#10162; Offcanvas:
 Create beautiful and responsive sidebar in the webpage using bootstrap offcanvas. It is similar to modal popup boxes but differs in placements.
 
 *Syntax:*
@@ -36,7 +36,7 @@ Create beautiful and responsive sidebar in the webpage using bootstrap offcanvas
 </div>
 ```
 
-- Offcanvas body scrolling:
+### &#10022; Offcanvas body scrolling:
 
 ```html
 <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="{offcanvas-id}" aria-labelledby="{offcanvas-label}">
@@ -44,7 +44,7 @@ Create beautiful and responsive sidebar in the webpage using bootstrap offcanvas
 </div>  
 ```
 
-- Offcanvas backdrop:
+### &#10022; Offcanvas backdrop:
 
 ```html
 <div class="offcanvas offcanvas-start" data-bs-backdrop="true" tabindex="-1"  id="{offcanvas-id}" aria-labelledby="{offcanvas-label}">
@@ -52,7 +52,7 @@ Create beautiful and responsive sidebar in the webpage using bootstrap offcanvas
 </div>
 ```
 
-- Accessing offcanvas via JavaScript:
+### &#10022; Accessing offcanvas via JavaScript:
 ```javascript
 var offcanvasList = [].slice.call(document.querySelectorAll('.offcanvas'));
 var offcanvasElements = offcanvasList.map(function (element) {
@@ -67,19 +67,19 @@ var offcanvasElement = new bootstrap.Offcanvas(offcanvasReference, {
 });
 ```
 
-- Methods to control offcanvas via JavaScript:
-  - `show()` - It makes the offcanvas to be visible.
-  - `hide()` - It makes the offcanvas to be hidden.
-  - `toggle()` - It toggles the state of the offcanvas either show or hide.
-  - `dispose()` - It removes offcanvas from DOM tree.
-  - `getInstance()` - Static method which allows to get the offcanvas instance.
-  - `getOrCreateInstance()` - Static method which returns a offcanvas instance or create a new one in case it wasn't initialized yet.
+### &#10022; Methods to control offcanvas via JavaScript:
+- `show()` - It makes the offcanvas to be visible.
+- `hide()` - It makes the offcanvas to be hidden.
+- `toggle()` - It toggles the state of the offcanvas either show or hide.
+- `dispose()` - It removes offcanvas from DOM tree.
+- `getInstance()` - Static method which allows to get the offcanvas instance.
+- `getOrCreateInstance()` - Static method which returns a offcanvas instance or create a new one in case it wasn't initialized yet.
 
-- Events related to offcanvas:
-  - `show.bs.offcanvas` - It triggers an event when the show instance method is invoked.
-  - `shown.bs.offcanvas` - It triggers an event when the offcanvas gets visible to the user.  
-  - `hide.bs.offcanvas` - It triggers an event when the hide instance method is invoked.
-  - `hidden.bs.offcanvas` - It triggers an event when the offcanvas gets hidden to the user.  
+### &#10022; Events related to offcanvas:
+- `show.bs.offcanvas` - It triggers an event when the show instance method is invoked.
+- `shown.bs.offcanvas` - It triggers an event when the offcanvas gets visible to the user.  
+- `hide.bs.offcanvas` - It triggers an event when the hide instance method is invoked.
+- `hidden.bs.offcanvas` - It triggers an event when the offcanvas gets hidden to the user.  
 
 ```javascript
 var offcanvasReference = document.getElementById('{offcanvas-id}');

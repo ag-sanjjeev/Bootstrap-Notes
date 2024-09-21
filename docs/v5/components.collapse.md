@@ -1,4 +1,4 @@
-## &#10022; Collapse:
+## &#10162; Collapse:
 Collapse means toggle the content to be visible or hidden by collapsing the container.
 
 *Syntax:*
@@ -10,21 +10,23 @@ This collapsible content can be toggled by two way:
   - Anchor Tag with `href`
   - Button with `data-bs-target`
 
-**Collapse Controls:**
+### &#10022; Collapse Controls:
 ```html
 <a class="btn btn-primary" data-bs-toggle="collapse" href="#{collapse-id}" role="button" aria-expanded="false" aria-controls="{collapse-id}">{Button Text}</a>
 ```
+
 ```html
 <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#{collapse-id}" aria-expanded="false" aria-controls="{collapse-id}">{Button Text}</button>
 ```
-**Collapse Target:**
+
+### &#10022; Collapse Target:
 ```html
 <div class="collapse" id="{collapse-id}">...</div>
 ```
 
 *Multiple Collapse Control can target a single collapse content to toggle.*
 
-- Accessing collapse via JavaScript::
+### &#10022; Accessing collapse via JavaScript::
 ```javascript
 var collapseElements = [].slice.call(document.querySelectorAll('.collapse'));
 var collapseList = collapseElements.map(function (element) {
@@ -32,7 +34,7 @@ var collapseList = collapseElements.map(function (element) {
 });
 ```
 
-- Add options to collapse via JavaScript:
+### &#10022; Add options to collapse via JavaScript:
 ```javascript
 var collapseElement = document.getElementById('{collapse-id}')
 var collapseObject = new bootstrap.Collapse(collapseElement, {
@@ -41,18 +43,18 @@ var collapseObject = new bootstrap.Collapse(collapseElement, {
 });
 ```
 
-- Methods to control collapse via JavaScript:
-  - `toggle()` - It makes collapse to be either visible or hidden.
-  - `show()` - It makes collapse content to be visible.
-  - `hide()` -  It makes collapse content to be hide.  
-  - `dispose()` - It removes collapse from DOM tree.
-  - `getInstance()` - Static method which allows to get the collapse instance.
-  - `getOrCreateInstance()` - Static method which returns a collapse instance or create a new one in case it wasn't initialized yet.
+### &#10022; Methods to control collapse via JavaScript:
+- `toggle()` - It makes collapse to be either visible or hidden.
+- `show()` - It makes collapse content to be visible.
+- `hide()` -  It makes collapse content to be hide.  
+- `dispose()` - It removes collapse from DOM tree.
+- `getInstance()` - Static method which allows to get the collapse instance.
+- `getOrCreateInstance()` - Static method which returns a collapse instance or create a new one in case it wasn't initialized yet.
 
-- Events related to collapse:
-  - `show.bs.collapse` - It triggers an event when the show instance method is invoked.
-  - `shown.bs.collapse` - It triggers an event when the collapse content gets visible to the user.  - `hide.bs.collapse` - It triggers an event when the hide instance method is invoked.
-  - `hidden.bs.collapse` - It triggers an event when the collapse content gets hidden to the user.  
+### &#10022; Events related to collapse:
+- `show.bs.collapse` - It triggers an event when the show instance method is invoked.
+- `shown.bs.collapse` - It triggers an event when the collapse content gets visible to the user.  - `hide.bs.collapse` - It triggers an event when the hide instance method is invoked.
+- `hidden.bs.collapse` - It triggers an event when the collapse content gets hidden to the user.  
 
 ```javascript
 var collapseElement = document.getElementById('{collapse-id}')

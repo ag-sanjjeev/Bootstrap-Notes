@@ -1,4 +1,4 @@
-## &#10022; Alerts:
+## &#10162; Alerts:
 It is a alternative and replacement for native browser alert boxes using bootstrap.
 
 *Syntax:*
@@ -8,7 +8,8 @@ It is a alternative and replacement for native browser alert boxes using bootstr
 </div>
 ```
 
-- The color schemes for alert boxes are `.alert-primary`, `.alert-secondary`, `.alert-success`, `.alert-danger`, `.alert-warning`, `.alert-info`, `.alert-light`, `.alert-dark`.
+### &#10022; Color schemes:
+The color schemes for alert boxes are `.alert-primary`, `.alert-secondary`, `.alert-success`, `.alert-danger`, `.alert-warning`, `.alert-info`, `.alert-light`, `.alert-dark`.
 
 ```html
 <div class="alert alert-primary" role="alert">
@@ -16,14 +17,18 @@ It is a alternative and replacement for native browser alert boxes using bootstr
 </div>
 ```
 
-- To add links in the alert boxes rather than the traditional links.
+### &#10022; Link in alert:
+To add links in the alert boxes rather than the traditional links.
+
 ```html
 <div class="alert alert-primary" role="alert">
   ... <a href="#" class="alert-link">an example link</a> ...
 </div>
 ```
 
-- To add alert heading with additional content.
+### &#10022; Alert heading:
+To add alert heading with additional content.
+
 ```html
 <div class="alert alert-danger" role="alert">
   <h4 class="alert-heading">{Alert Heading}</h4>
@@ -31,7 +36,9 @@ It is a alternative and replacement for native browser alert boxes using bootstr
 </div>
 ```
 
-- To add icons to the alert boxes.
+### &#10022; Icons in alert:
+To add icons to the alert boxes.
+
 ```html
 <div class="alert alert-danger" role="alert">
   <h4 class="alert-heading"> {icon} {Alert Heading}</h4>
@@ -39,7 +46,9 @@ It is a alternative and replacement for native browser alert boxes using bootstr
 </div>
 ```
 
-- To create dismissing alert boxes with some transitions. Make sure that bootstrap JavaScript plugin is linked.
+### &#10022; Dismissing alert:
+To create dismissing alert boxes with some transitions. Make sure that bootstrap JavaScript plugin is linked.
+
 ```html
 <div class="alert alert-danger alert-dismissible fade show" role="alert">
   {content}
@@ -47,8 +56,9 @@ It is a alternative and replacement for native browser alert boxes using bootstr
 </div>
 ```
 
-- Methods related to alerts
+### &#10022; Methods related to alerts:
 To create an alert instance with the alert constructor.
+
 ```javascript
 var alertReference = document.getElementById('alert-id');
 var bsAlert = new bootstrap.Alert(alertReference);
@@ -62,8 +72,9 @@ bsAlert.close();
 bsAlert = bootstrap.Alert.getOrCreateInstance(alertReference); // get alert object or create instance if not created yet
 ```
 
-- Events related Alerts
+### &#10022; Events related Alerts:
 To get events of alerts such as close and closed events.
+
 ```javascript
 // close.bs.alert - It triggers immediately when the close instance method is called.
 // closed.bs.alert - It triggers when the alert has been closed and transitions have completed.

@@ -1,4 +1,4 @@
-## &#10022; Spinners:
+## &#10162; Spinners:
 Create animated loader and spinners with bootstrap without JavaScript.
 
 *Syntax: For spinners, add `.spinner-border` class.*
@@ -9,7 +9,7 @@ Create animated loader and spinners with bootstrap without JavaScript.
 </div>
 ```
 
-- Colored spinners:
+### &#10022; Colored spinners:
 
 *Syntax: add `.text-{primary|secondary|success|warning|danger|info}` class to apply color.*
 
@@ -19,7 +19,7 @@ Create animated loader and spinners with bootstrap without JavaScript.
 </div>
 ```
 
-- Growing spinner:
+### &#10022; Growing spinner:
 
 *Syntax: add `.spinner-grow` class instead of `.spinner-grow` class.*
 
@@ -35,7 +35,7 @@ Create animated loader and spinners with bootstrap without JavaScript.
 </div>
 ```
 
-- Sizing of spinners:
+### &#10022; Sizing of spinners:
 
 *Syntax:* 
   - Add `.spinner-border-sm` class to the `.spinner-border` class.
@@ -73,7 +73,7 @@ Create animated loader and spinners with bootstrap without JavaScript.
 </div>
 ```
 
-- Spinners with button:
+### &#10022; Spinners with button:
 
 ```html
 <!-- Spinner border and button without text -->

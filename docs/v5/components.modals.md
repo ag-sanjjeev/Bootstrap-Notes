@@ -1,4 +1,4 @@
-## &#10022; Modals:
+## &#10162; Modals:
 Create beautiful popup modal dialog boxes using bootstrap classes.
 - When modal popup dialog box appears in the page. That is placed over everything. 
 - Then, bootstrap removes scroll property for the body and applied scroll property to modal boxes. 
@@ -48,7 +48,7 @@ modalReference.addEventListener('shown.bs.modal', function () {
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#{modal-id}">{Button Text}</button>
 ```
 
-- Static backdrop modal:
+### &#10022; Static backdrop modal:
 
 To make modal should not close when clicking backdrop by setting backdrop to `static`. 
 
@@ -64,7 +64,7 @@ To make modal should not close when clicking backdrop by setting backdrop to `st
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#{modal-id}">{Button Text}</button>
 ```
 
-- Long modal boxes:
+### &#10022; Long modal boxes:
 
 To make modal popup box as long to fit all content and scroll by completely through modal dialog box.
 
@@ -77,7 +77,7 @@ To make modal popup box as long to fit all content and scroll by completely thro
 </div>
 ```
 
-- Scrollable long modal boxes:
+### &#10022; Scrollable long modal boxes:
 To make modal popup boxes are to fit inside the page. But it has long content that make scrollable modal body alone.
 
 *Syntax: add `.modal-dialog-scrollable` class to the `.modal-dialog` class.*
@@ -89,7 +89,7 @@ To make modal popup boxes are to fit inside the page. But it has long content th
 </div>
 ```
 
-- Vertically centered modal boxes:
+### &#10022; Vertically centered modal boxes:
 To appears modal popup boxes are centered in vertical axis.
 
 *Syntax: add `.modal-dialog-centered` class to the `.modal-dialog` class.*
@@ -101,7 +101,7 @@ To appears modal popup boxes are centered in vertical axis.
 </div>
 ```
 
-- Toggle between modals:
+### &#10022; Toggle between modals:
 View modals dialog boxes between one after another by referring target to the modal box.
 
 ```html
@@ -121,7 +121,7 @@ View modals dialog boxes between one after another by referring target to the mo
 <button data-bs-target="#{first-modal-id}">...</button>
 ```
 
-- Add animations:
+### &#10022; Add animations:
 To add animation when modal dialog boxes appears and disappears in the page.
 
 *Syntax: add `.fade` class to the `.modal` class.*
@@ -136,7 +136,7 @@ To add animation when modal dialog boxes appears and disappears in the page.
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#{modal-id}">{Button Text}</button>
 ```
 
-- Sizing of modal dialog boxes:
+### &#10022; Sizing of modal dialog boxes:
 
 ```html
 <!-- Small sized modal dialog box -->
@@ -149,7 +149,7 @@ To add animation when modal dialog boxes appears and disappears in the page.
 <div class="modal-dialog modal-xl">...</div>
 ```
 
-- Fullscreen modal dialog boxes:
+### &#10022; Fullscreen modal dialog boxes:
 To make modal dialog boxes to be span across entire page on different screen sizes are met. 
 	- `.modal-fullscreen` class makes modal boxes are always in fullscreen.
 	- `.modal-fullscreen-sm-down`	class makes modal boxes fullscreen, when screen size below the small screen devices, which is defined in bootstrap.
@@ -165,7 +165,7 @@ To make modal dialog boxes to be span across entire page on different screen siz
 </div>
 ```
 
-- Accessing modal dialog boxes via JavaScript:
+### &#10022; Accessing modal dialog boxes via JavaScript:
 ```javascript
 var modalReference = new bootstrap.Modal(document.getElementById('{modal-id}'), options);
 
@@ -176,21 +176,21 @@ var modalReference = new bootstrap.Modal(document.getElementById('{modal-id}'), 
 });
 ```
 
-- Methods to control modal dialog boxes via JavaScript:
-	- `handleUpdate()` - Get position of modal boxes to re-adjust it.
-  - `show()` - It makes modal dialog boxes to be visible.
-  - `show(DOMReference)` - It makes modal dialog boxes to be visible with an argument of DOM reference.
-  - `toggle()` - It makes modal dialog boxes to toggle between show and hide.
-  - `dispose()` - It removes modal dialog boxes from DOM tree.
-  - `getInstance()` - Static method which allows to get the modal dialog boxes instance.
-  - `getOrCreateInstance()` - Static method which returns a modal dialog boxes instance or create a new one in case it wasn't initialized yet.
+### &#10022; Methods to control modal dialog boxes via JavaScript:
+- `handleUpdate()` - Get position of modal boxes to re-adjust it.
+- `show()` - It makes modal dialog boxes to be visible.
+- `show(DOMReference)` - It makes modal dialog boxes to be visible with an argument of DOM reference.
+- `toggle()` - It makes modal dialog boxes to toggle between show and hide.
+- `dispose()` - It removes modal dialog boxes from DOM tree.
+- `getInstance()` - Static method which allows to get the modal dialog boxes instance.
+- `getOrCreateInstance()` - Static method which returns a modal dialog boxes instance or create a new one in case it wasn't initialized yet.
 
-- Events related to modal boxes:
-  - `show.bs.modal` - It triggers an event when the show instance method is invoked.
-  - `shown.bs.modal` - It triggers an event when the modal boxes gets visible to the user.  
-  - `hide.bs.modal` - It triggers an event when the hide instance method is invoked.
-  - `hidden.bs.modal` - It triggers an event when the modal boxes gets hidden to the user.  
-  - `hidePrevented.bs.modal` - It triggers an event when the modal boxes prevented to hide, due to the backdrop static or keyboard escape key.  
+### &#10022; Events related to modal boxes:
+- `show.bs.modal` - It triggers an event when the show instance method is invoked.
+- `shown.bs.modal` - It triggers an event when the modal boxes gets visible to the user.  
+- `hide.bs.modal` - It triggers an event when the hide instance method is invoked.
+- `hidden.bs.modal` - It triggers an event when the modal boxes gets hidden to the user.  
+- `hidePrevented.bs.modal` - It triggers an event when the modal boxes prevented to hide, due to the backdrop static or keyboard escape key.  
 
 ```javascript
 // showing modal dialog boxes via JavaScript

@@ -1,4 +1,4 @@
-## &#10022; Progress Bars:
+## &#10162; Progress Bars:
 Create beautiful custom progress bars using bootstrap. This will make richer than HTML [`<progress>`](https://github.com/ag-sanjjeev/HTML-Notes/blob/master/tags/progress-tag.md) tag. 
 
 *Syntax:*
@@ -17,7 +17,7 @@ Create beautiful custom progress bars using bootstrap. This will make richer tha
 </div>
 ```
 
-- Progress bar with label:
+### &#10022; Progress bar with label:
 
 ```html
 <div class="progress">
@@ -25,7 +25,7 @@ Create beautiful custom progress bars using bootstrap. This will make richer tha
 </div>
 ```
 
-- Progress bar height:
+### &#10022; Progress bar height:
 
 ```html
 <div class="progress" style="height: 1px;">
@@ -33,7 +33,7 @@ Create beautiful custom progress bars using bootstrap. This will make richer tha
 </div>
 ```
 
-- Colored progress bar:
+### &#10022; Colored progress bar:
 
 *Syntax: add `.bg-{primary|secondary|success|warning|danger|info}` class to the `.progress-bar` class.*
 
@@ -43,7 +43,7 @@ Create beautiful custom progress bars using bootstrap. This will make richer tha
 </div>
 ```
 
-- Multi stage progress bar:
+### &#10022; Multi stage progress bar:
 
 *Syntax: add multiple `.progress-bar` class element with different color.*
 
@@ -58,7 +58,7 @@ Create beautiful custom progress bars using bootstrap. This will make richer tha
 </div>
 ```
 
-- Striped progress bar:
+### &#10022; Striped progress bar:
 
 *Syntax: add `.progress-bar-striped` class to the `.progress-bar` class.*
 
@@ -68,7 +68,7 @@ Create beautiful custom progress bars using bootstrap. This will make richer tha
 </div>
 ```
 
-- Animated progress bar:
+### &#10022; Animated progress bar:
 
 *Syntax: add `.progress-bar-animated` class to the `.progress-bar` class.*
 

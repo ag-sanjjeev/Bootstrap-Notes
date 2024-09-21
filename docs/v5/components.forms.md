@@ -1,4 +1,4 @@
-## &#10022; Forms:
+## &#10162; Forms:
 Create beautiful forms with form element that looks rich and for better user interaction. Bootstrap offers to create various form elements.
 
 ### &#9780; Overview:
@@ -24,7 +24,7 @@ This will creates beautiful and rich in style textual form input elements such a
 </div>
 ```
 
-- Sizing of form control:
+### &#10022; Sizing of form control:
 
 *Syntax: add `.form-control{-sm|-lg}` class to the input elements.*
 
@@ -37,7 +37,7 @@ This will creates beautiful and rich in style textual form input elements such a
 <input type="email" class="form-control-lg" id="email-address" placeholder="Enter your email">
 ```
 
-- Disabled form control:
+### &#10022; Disabled form control:
 
 *Syntax: add `disabled` attribute to the input elements.*
 
@@ -45,7 +45,7 @@ This will creates beautiful and rich in style textual form input elements such a
 <input type="text" class="form-control" id="user-name" placeholder="Enter your user name" disabled>
 ```
 
-- Readonly form control:
+### &#10022; Readonly form control:
 
 *Syntax: add `readonly` attribute to the input elements.*
 
@@ -53,7 +53,7 @@ This will creates beautiful and rich in style textual form input elements such a
 <input type="text" class="form-control" id="user-name" placeholder="Enter your user name" readonly>
 ```
 
-- Readonly plain text:
+### &#10022; Readonly plain text:
 
 *Syntax: add `.form-control-plaintext` class and `readonly` attribute to the input elements.*
 
@@ -61,7 +61,7 @@ This will creates beautiful and rich in style textual form input elements such a
 <input type="text" class="form-control-plaintext" id="user-name" placeholder="Enter your user name" readonly>
 ```
 
-- File input form control:
+### &#10022; File input form control:
 
 *Syntax: add `.form-control` class to the file input elements.*
 
@@ -69,7 +69,7 @@ This will creates beautiful and rich in style textual form input elements such a
 <input type="file" class="form-control" id="profile-picture" placeholder="Please choose picture">
 ```
 
-- Color input form control:
+### &#10022; Color input form control:
 
 *Syntax: add `.form-control-color` class to the input elements with `.form-control` class.*
 
@@ -77,7 +77,7 @@ This will creates beautiful and rich in style textual form input elements such a
 <input type="color" name="theme-color" class="form-control form-control-color" value="#000000">
 ```
 
-- Datalist form control:
+### &#10022; Datalist form control:
 
 *Syntax: add `.form-control` class to the input elements.*
 
@@ -123,7 +123,7 @@ Bootstrap makes beautiful and responsive rich select boxes.
 </select>
 ```
 
-- Sizing of select element:
+### &#10022; Sizing of select element:
 
 *Syntax: add `.form-select{-sm|-lg}` class to the select elements.*
 
@@ -143,7 +143,7 @@ Bootstrap makes beautiful and responsive rich select boxes.
 ### &#10022; Checkboxes and Radios:
 To make checkboxes and radios are in rich and easy to interact than traditional element.
 
-- Checkboxes:
+### &#10022; Checkboxes:
 
 *Syntax:* 
 	- Add `.form-check-input` class to the checkboxes elements.
@@ -161,7 +161,7 @@ To make checkboxes and radios are in rich and easy to interact than traditional 
 
 *Checked and Disabled state checkboxes are defined by specifying attribute.*
 
-- Radios:
+### &#10022; Radios:
 
 *Syntax:* 
 	- Add `.form-check-input` class to the radios elements.
@@ -185,7 +185,7 @@ To make checkboxes and radios are in rich and easy to interact than traditional 
 
 *Checked and Disabled state radios are defined by specifying attribute.*
 
-- Switches:
+### &#10022; Switches:
 
 *Syntax:* 
 	- Checkboxes are treated as switches.
@@ -202,7 +202,7 @@ To make checkboxes and radios are in rich and easy to interact than traditional 
 
 *Checked and Disabled state switches are defined by specifying attribute.*
 
-- Inline form check elements:
+### &#10022; Inline form check elements:
 By default `.form-check` elements are arranged and stacked vertically.
 
 *Syntax: add `.form-check-inline` class to the `.form-check` class.*
@@ -213,7 +213,7 @@ By default `.form-check` elements are arranged and stacked vertically.
 <div class="form-check form-check-inline">...</div>
 ```
 
-- Toggle Buttons:
+### &#10022; Toggle Buttons:
 It can be differentiated by it's color when toggling in bootstrap. If it is active then it will be dark in color, otherwise normal color.
 
 *Syntax:*
@@ -238,7 +238,7 @@ It can be differentiated by it's color when toggling in bootstrap. If it is acti
 <label class="btn btn-primary" for="gender-male">Male</label>
 ```
 
-- Outlined Toggle Buttons:
+### &#10022; Outlined Toggle Buttons:
 It can be differentiated by filling background color when toggling in bootstrap. If it is active then it will be filled with background color, otherwise not filled background color.
 
 *Syntax:*
@@ -292,7 +292,7 @@ To make visually grouping a some of the form elements is possible by using boots
 </div>
 ```
 
-- Wrapping input group:
+### &#10022; Wrapping input group:
 To avoid wrapping in the input group use bootstrap flex class for nowrap.
 
 *Syntax: add `.flex-nowrap` class to the `.input-group` class.* 
@@ -304,7 +304,7 @@ To avoid wrapping in the input group use bootstrap flex class for nowrap.
 </div>
 ```
 
-- Sizing of input group:
+### &#10022; Sizing of input group:
 To use different size of input group use bootstrap sizing classes.
 
 *Syntax: add `.input-group{-sm|-lg}` class to the `.input-group` class.* 
@@ -320,7 +320,7 @@ To use different size of input group use bootstrap sizing classes.
 <div class="input-group input-group-lg">...</div>
 ```
 
-- Input group for checkboxes and radios:
+### &#10022; Input group for checkboxes and radios:
 To group checkboxes and radio elements using bootstrap with class.
 
 *Syntax: wrap with `.input-group-text` class to the checkboxes and radios.*
@@ -334,7 +334,7 @@ To group checkboxes and radio elements using bootstrap with class.
 </div>
 ```
 
-- Multiple inputs with input group:
+### &#10022; Multiple inputs with input group:
 To group multiple form elements in a single group.
 
 ```html
@@ -345,7 +345,7 @@ To group multiple form elements in a single group.
 </div>
 ```
 
-- Multiple addons with input group:
+### &#10022; Multiple addons with input group:
 
 ```html
 <div class="input-group">
@@ -355,7 +355,7 @@ To group multiple form elements in a single group.
 </div>
 ```
 
-- Buttons addons with input group:
+### &#10022; Buttons addons with input group:
 
 ```html
 <div class="input-group">
@@ -364,7 +364,7 @@ To group multiple form elements in a single group.
 </div>
 ```
 
-- Custom forms with input group:
+### &#10022; Custom forms with input group:
 
 ```html
 <div class="input-group">
@@ -415,7 +415,7 @@ To create beautiful form element with floating label, that will float when user 
 ### &#10022; Layout:
 Create different form layout using bootstrap.
 
-- Form grid:
+### &#10022; Form grid:
 Using bootstrap grid classes `.row` and `.col`.
 
 ```html
@@ -429,8 +429,9 @@ Using bootstrap grid classes `.row` and `.col`.
 </div>
 ```
 
-- Horizontal form:
+### &#10022; Horizontal form:
 *Syntax: `.col-form-label` is used to treat the label as column.*
+
 ```html
 <!-- Small sized form control element -->
 <div class="row">
@@ -457,7 +458,7 @@ Using bootstrap grid classes `.row` and `.col`.
 </div>
 ```
 
-- Auto sizing form elements:
+### &#10022; Auto sizing form elements:
 
 *Syntax: wrap with `.col-auto` class to the input elements.*
 
@@ -485,7 +486,7 @@ For server side validation use `.is-valid` and `.is-invalid` classes to the spec
 
 `.needs-validation` class will not show validation feedback initially. But it shows when try to submit form.
 
-- Client side validation:
+### &#10022; Client side validation:
 
 ```html
 <form class="row needs-validation" novalidate>
@@ -540,7 +541,7 @@ For server side validation use `.is-valid` and `.is-invalid` classes to the spec
 </script>
 ```
 
-- Server side validation:
+### &#10022; Server side validation:
 
 ```html
 <form class="row">
@@ -568,7 +569,7 @@ For server side validation use `.is-valid` and `.is-invalid` classes to the spec
 </form>
 ```
 
-- Tooltip feedback:
+### &#10022; Tooltip feedback:
 ```html
 <form class="row">
   <div class="col-md-6">

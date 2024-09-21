@@ -1,4 +1,4 @@
-## &#10022; Navs and Tabs:
+## &#10162; Navs and Tabs:
 Create beautiful and responsive navigation and tabbable panes using bootstrap classes.
 
 *Syntax:*
@@ -21,7 +21,7 @@ Create beautiful and responsive navigation and tabbable panes using bootstrap cl
   </li>
 </ul>
 ```
-- Create navigation menu with navs:
+### &#10022; Create navigation menu with navs:
 
 ```html
 <nav class="nav">  
@@ -31,7 +31,7 @@ Create beautiful and responsive navigation and tabbable panes using bootstrap cl
 </nav>
 ```
 
-- Horizontal alignment:
+### &#10022; Horizontal alignment:
 
 ```html
 <!-- Center aligned navs -->
@@ -45,7 +45,7 @@ Create beautiful and responsive navigation and tabbable panes using bootstrap cl
 </nav>
 ```
 
-- Vertical alignment:
+### &#10022; Vertical alignment:
 
 ```html
 <nav class="nav flex-column">
@@ -53,7 +53,7 @@ Create beautiful and responsive navigation and tabbable panes using bootstrap cl
 </nav>
 ```
 
-- Tabs:
+### &#10022; Tabs:
 
 *Syntax: add `.nav-tabs` class to `.nav` class.*
 
@@ -63,7 +63,7 @@ Create beautiful and responsive navigation and tabbable panes using bootstrap cl
 </ul>
 ```
 
-- Pills:
+### &#10022; Pills:
 
 *Syntax: add `.nav-pills` class to `.nav` class.*
 
@@ -73,7 +73,7 @@ Create beautiful and responsive navigation and tabbable panes using bootstrap cl
 </ul>
 ```
 
-- Fill nav items:
+### &#10022; Fill nav items:
 
 *Syntax: add `.nav-fill` class to `.nav` class.*
 
@@ -83,7 +83,7 @@ Create beautiful and responsive navigation and tabbable panes using bootstrap cl
 </ul>
 ```
 
-- Justify nav items:
+### &#10022; Justify nav items:
 
 *Syntax: add `.nav-justified` class to `.nav` class.*
 
@@ -93,7 +93,7 @@ Create beautiful and responsive navigation and tabbable panes using bootstrap cl
 </ul>
 ```
 
-- Nav item with dropdown:
+### &#10022; Nav item with dropdown:
 
 ```html
 <ul class="nav">
@@ -108,7 +108,7 @@ Create beautiful and responsive navigation and tabbable panes using bootstrap cl
 </ul>
 ```
 
-- Link nav items to tabbable panes
+### &#10022; Link nav items to tabbable panes:
 
 ```html
 <ul class="nav">
@@ -131,7 +131,7 @@ Create beautiful and responsive navigation and tabbable panes using bootstrap cl
 </div>
 ```
 
-- Accessing tabbable panes via JavaScript:
+### &#10022; Accessing tabbable panes via JavaScript:
 ```javascript
 var navLinkList = [].slice.call(document.querySelectorAll('{nav-id} a'));
 navLinkList.forEach(function (linkItem) {
@@ -144,23 +144,23 @@ navLinkList.forEach(function (linkItem) {
 });
 ```
 
-- Accessing individual tab panes via JavaScript
+### &#10022; Accessing individual tab panes via JavaScript
 ```javascript
 var navLink = document.querySelector('{nav-id} a[href="#{tab-id}"]');
 bootstrap.Tab.getInstance(navLink).show();
 ```
 
-- Methods to control tab panes via JavaScript:
-  - `show()` - It makes the associated tabbable panes to be visible.
-  - `dispose()` - It removes tabbable panes from DOM tree.
-  - `getInstance()` - Static method which allows to get the tabbable pane instance.
-  - `getOrCreateInstance()` - Static method which returns a tabbable pane instance or create a new one in case it wasn't initialized yet.
+### &#10022; Methods to control tab panes via JavaScript:
+- `show()` - It makes the associated tabbable panes to be visible.
+- `dispose()` - It removes tabbable panes from DOM tree.
+- `getInstance()` - Static method which allows to get the tabbable pane instance.
+- `getOrCreateInstance()` - Static method which returns a tabbable pane instance or create a new one in case it wasn't initialized yet.
 
-- Events related to modal boxes:
-  - `show.bs.tab` - It triggers an event when the show instance method is invoked.
-  - `shown.bs.tab` - It triggers an event when the tabbable pane gets visible to the user.  
-  - `hide.bs.tab` - It triggers an event when the hide instance method is invoked.
-  - `hidden.bs.tab` - It triggers an event when the tabbable pane gets hidden to the user.  
+### &#10022; Events related to modal boxes:
+- `show.bs.tab` - It triggers an event when the show instance method is invoked.
+- `shown.bs.tab` - It triggers an event when the tabbable pane gets visible to the user.  
+- `hide.bs.tab` - It triggers an event when the hide instance method is invoked.
+- `hidden.bs.tab` - It triggers an event when the tabbable pane gets hidden to the user.  
 
 ```javascript
 var navLink = document.querySelector('{nav-id} a');

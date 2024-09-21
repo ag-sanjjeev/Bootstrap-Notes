@@ -1,4 +1,4 @@
-## &#10022; Button Group:
+## &#10162; Button Group:
 Bootstrap can make series of buttons as group.
 
 *Syntax: add `.btn-group` class*
@@ -10,15 +10,21 @@ Bootstrap can make series of buttons as group.
 </div>
 ```
 
+### &#10022; Sizing:
 - To make buttons as larger in size in the group by adding `.btn-group-lg` class to the `.btn-group` class.
+
 ```html
 <div class="btn-group btn-group-lg" role="group" aria-label="...">...</div>
 ```
 
+
 - To make buttons as smaller in size in the group by adding `.btn-group-sm` class to the `.btn-group` class.
+
 ```html
 <div class="btn-group btn-group-sm" role="group" aria-label="...">...</div>
 ```
+
+### &#10022; Button Stacking:
 
 - To make buttons are stacked vertically in the button group by adding `.btn-group-vertical` class.
 ```html
