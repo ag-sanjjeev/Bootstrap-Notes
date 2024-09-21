@@ -35,7 +35,7 @@ Before diving into Bootstrap, ensure you have a strong foundation in:
     - [Images](./docs/v5/bootstrap-content.md#-images)
     - [Tables](./docs/v5/bootstrap-content.md#-tables)
     - [Figures](./docs/v5/bootstrap-content.md#-figures)
-5. [Components:](./docs/v5/components.md)
+4. [Components:](./docs/v5/components.md)
     - [Accordion](./docs/v5/components.accordion.md)
     - [Alerts](./docs/v5/components.alerts.md)
     - [Badge](./docs/v5/components.badge.md)
@@ -69,7 +69,7 @@ Before diving into Bootstrap, ensure you have a strong foundation in:
     - [Spinners](./docs/v5/components.spinners.md)
     - [Toasts](./docs/v5/components.toasts.md)
     - [Tooltips](./docs/v5/components.tooltips.md)
-6. [Bootstrap Helpers](./docs/v5/bootstrap-helpers.md)
+5. [Bootstrap Helpers](./docs/v5/bootstrap-helpers.md)
     - [Clearfix](./docs/v5/bootstrap-helpers.md#-clearfix)
     - [Colored links](./docs/v5/bootstrap-helpers.md#-colored-links)
     - [Ratio](./docs/v5/bootstrap-helpers.md#-ratio)
@@ -77,7 +77,7 @@ Before diving into Bootstrap, ensure you have a strong foundation in:
     - [Visually hidden](./docs/v5/bootstrap-helpers.md#-visually-hidden)
     - [Stretched link](./docs/v5/bootstrap-helpers.md#-stretched-link)
     - [Text truncation](./docs/v5/bootstrap-helpers.md#-text-truncation)
-7. [Customization and Theming:](./docs/v5/customization-and-theming.md) 
+6. [Customization and Theming:](./docs/v5/customization-and-theming.md) 
     - [Background](./docs/v5/customization-and-theming.background.md)
     - [Borders](./docs/v5/customization-and-theming.borders.md)
     - [Colors](./docs/v5/customization-and-theming.colors.md)
@@ -93,7 +93,6 @@ Before diving into Bootstrap, ensure you have a strong foundation in:
     - [Text](./docs/v5/customization-and-theming.text.md)
     - [Vertical align](./docs/v5/customization-and-theming.vertical-align.md)
     - [Visibility](./docs/v5/customization-and-theming.visibility.md)
-8. [jQuery Integration](#-jquery-integration)
 
 ---
 
